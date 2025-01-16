@@ -11,7 +11,9 @@ npm install @rashitamehta/button
 ```tsx
 import Button from '@rashitamehta/button';
 
-<Button>Click me</Button>;
+export default function App() {
+return <Button variant="primary">Click Me!</Button>;
+}
 ```
 
 ## Components
